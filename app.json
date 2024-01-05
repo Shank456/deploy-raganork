@@ -21,7 +21,7 @@
         "READ_MESSAGES": {
             "description": "Bot will read all messages. Can be also false",
             "required": true,
-            "value":"false"
+            "value":"true"
         },
         "READ_COMMAND": {
             "description": "Bot will read all commands (blue tick). Can be also false",
@@ -51,12 +51,12 @@
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"Raganork"
+            "value":"shank"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
             "required": true,
-            "value":"Raganork;Souravkl11;https://i.imgur.com/YchATyT.jpeg"
+            "value":"shank;Souravkl11;https://i.imgur.com/YchATyT.jpeg"
         },
         "MODE": {
             "description": "Private or public",
@@ -66,7 +66,7 @@
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":""
+            "value":"254100736783"
         },
         "BLOCK_CHAT": {
             "description": "Block bot in specific groups, enter jids here sepereated with commas",
@@ -76,17 +76,17 @@
         "REJECT_CALLS": {
             "description": "Auto reject calls, true/false",
             "required": false,
-            "value":"false"
+            "value":"true"
         },
         "ALLOWED": {
             "description": "Country codes allowed by antifake",
             "required": false,
-            "value":"91,48"
+            "value":"27,254,255,256,250,260,92,93"
         },
         "WARN": {
             "description": "Warn limit",
             "required": false,
-            "value":"3"
+            "value":"2"
         },
         "LANGUAGE": {
             "description": "Available languages: english,manglish,turkish",
@@ -104,7 +104,7 @@
             "value":"_Bot is alive since {uptime}_"
         },
        "SESSION": {
-            "description": "Your session code, obtained by scanning QR",
+            "description": "Raganork~9b64c754ea7efb6ed9d31bd27d40a375:5a7244636c65794d326c593d",
             "required": true         
         }
     },
